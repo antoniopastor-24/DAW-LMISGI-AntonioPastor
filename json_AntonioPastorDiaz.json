@@ -1,0 +1,48 @@
+{
+"enquestes": [
+{
+"id": 1,
+"titol": "Evaluación de Satisfacción del Curso LMSGI",
+"activa": true,
+"preguntes": [
+{
+"ordre": 1,
+"text": "¿Cómo valorarías el contenido global del módulo?",
+"tipus": "opcio_multiple",
+"opcions": [
+"Excelente",
+"Bueno",
+"Mejorable"
+]
+},
+{
+"ordre": 2,
+"text": "Escribe tus comentarios o sugerencias de mejora:",
+"tipus": "text_lliure"
+}
+]
+},
+{
+"id": 2,
+"titol": "Preferencias de Lenguajes de Marcas",
+"activa": false,
+"preguntes": [
+{
+"ordre": 1,
+"text": "¿Qué formato prefieres para el intercambio de datos?",
+"tipus": "opcio_multiple",
+"opcions": [
+"XML",
+"JSON",
+"YAML"
+]
+},
+{
+"ordre": 2,
+"text": "Indica las razones de tu preferencia:",
+"tipus": "text_lliure"
+}
+]
+}
+]
+}
