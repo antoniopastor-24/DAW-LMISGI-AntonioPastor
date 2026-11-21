@@ -1,0 +1,94 @@
+/* 1. Estructura general i contenidor Flexbox en fila per a main i aside */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ecf0f1; /* Fons gris clar sol·licitat */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* 2. Capçalera fosca #2c3e50 i Flexbox per separar títol i menú */
+header {
+  width: 100%;
+  background-color: #2c3e50;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* 3. Menú de navegació horitzontal sense vinyetes i efecte hover verd */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #27ae60; /* Canvi de color a verd en passar el cursor */
+  text-decoration: underline;
+}
+
+/* 4. Secció <main> configurada al 70% d'amplada */
+main {
+  width: 70%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* 5. Articles amb fons blanc, vora esquerra de 4px verd (#27ae60) i ombra suau */
+article {
+  background-color: #ffffff;
+  border-left: 4px solid #27ae60;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 15px 20px;
+  margin-bottom: 15px;
+}
+
+article h2 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+/* 6. Barra lateral <aside> al 28% d'amplada amb fons #ecf0f1 */
+aside {
+  width: 28%;
+  background-color: #ecf0f1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Títol de la barra lateral en verd fosc */
+aside h2 {
+  margin-top: 0;
+  color: #1e8449;
+}
+
+/* Punts de la llista en color #27ae60 */
+aside li::marker {
+  color: #27ae60;
+}
+
+/* 7. Peu de pàgina centrat al 100% amb fons fosc i text gris clar */
+footer {
+  width: 100%;
+  background-color: #2c3e50;
+  color: #bdc3c7;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}

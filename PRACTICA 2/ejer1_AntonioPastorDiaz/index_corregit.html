@@ -1,0 +1,57 @@
+<!doctype html>
+<!-- CORRECCIÓ 1: Afegit l'atribut lang="ca" a l'etiqueta <html> per a accessibilitat i SEO -->
+<html lang="ca">
+<head>
+  <!-- CORRECCIÓ 2: Afegida la declaració de codificació de caràcters <meta charset="UTF-8"> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CORRECCIÓ 3: Tancada l'etiqueta del títol amb </title> -->
+  <title>Receptes de cuina</title>
+</head>
+<body>
+  <header>
+    <h1>Les millors receptes</h1>
+    <!-- CORRECCIÓ 4: Canviat el segon <h1> a <p> per evitar la duplicitat de l'encapçalat principal h1 -->
+    <p>Cuina casolana i tradició</p>
+  </header>
+
+  <!-- CORRECCIÓ 5: Afegit el contenidor semàntic <main> per envoltar el contingut principal -->
+  <main>
+    <section>
+      <h2>Ingredients de la paella</h2>
+      <ul>
+        <!-- CORRECCIÓ 6: Tancada l'etiqueta <li> de l'element Arròs amb </li> -->
+        <li>Arròs</li>
+        <li>Pollastre</li>
+        <li>Tomàquet</li>
+      </ul>
+    </section>
+
+    <figure>
+      <!-- CORRECCIÓ 7: Afegit l'atribut obligatori alt="Plat de paella tradicional" a la imatge -->
+      <img src="imatges/paella.jpg" alt="Plat de paella tradicional" width="400">
+      <!-- CORRECCIÓ 8: Afegit el text explicatiu i tancada l'etiqueta <figcaption> amb </figcaption> -->
+      <figcaption>Paella casolana tradicional</figcaption>
+    </figure>
+
+    <section>
+      <h2>Passos de preparació</h2>
+      <ol>
+        <!-- CORRECCIÓ 9: Corregida l'etiqueta de tancament </LI> en majúscules a minúscules </li> -->
+        <li>Sofregir el pollastre.</li>
+        <li>Afegir el tomàquet.</li>
+        <li>Incorporar l'arròs i el brou.</li>
+      </ol>
+    </section>
+
+    <!-- CORRECCIÓ 10: Afegides cometes a l'href, rel="noopener" i l'enllaç s'ha envoltat dins d'un <p> -->
+    <p><a href="https://www.receptes.cat" target="_blank" rel="noopener">Més receptes</a></p>
+  </main>
+
+  <footer>
+    <!-- CORRECCIÓ 11: Corregida la segona etiqueta <p> pel tancament correcte </p> -->
+    <p>Autora: Maria García · 2025</p>
+  </footer>
+<!-- CORRECCIÓ 12: Afegida l'etiqueta de tancament </body> abans de </html> -->
+</body>
+</html>
